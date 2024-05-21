@@ -9,15 +9,15 @@ function GetInTouchButn() {
         <Button
           variant="outlined"
           sx={{
-            color: "#061e5a",
-            borderColor: "#D6E4F0",
+            backgroundColor: "#163172",
+            borderColor: "#163172",
             borderWidth: 2,
-            backgroundColor: "#D6E4F0",
+            color: "white",
             "&:hover": {
-              backgroundColor: "#163172",
-              borderColor: "#163172",
-              color: "white",
+              color: "#163172",
+              borderColor: "#D6E4F0",
               borderWidth: 2,
+              backgroundColor: "#D6E4F0",
             },
             textTransform: "none",
           }}

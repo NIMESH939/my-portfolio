@@ -1,0 +1,28 @@
+{
+    "technologies": [
+        {
+            "id": "1",
+            "src": "./img/product-chain-1.png",
+            "title": "Front End",
+            "description": "Lorem bla bla Lorem bla blaLorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate quia accusantium quisquam. Aliquam perspiciatis, aliquid corrupet nesciunt quo in quas recusandae!"
+        },
+        {
+            "id": "2",
+            "src": "./img/tag-1.png",
+            "title": "Back End",
+            "description": "Lorem bla bla Lorem bla blaLorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate quia accusantium quisquam. Aliquam perspiciatis, aliquid corrupet nesciunt quo in quas recusandae!"
+        },
+        {
+            "id": "3",
+            "src": "./img/feather-pen-2.png",
+            "title": "UI & UX Design",
+            "description": "Lorem bla bla Lorem bla blaLorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate quia accusantium quisquam. Aliquam perspiciatis, aliquid corrupet nesciunt quo in quas recusandae!"
+        },
+        {
+            "id": "4",
+            "src": "./img/feather-pen-1.png",
+            "title": "WebFlow Development",
+            "description": "Lorem bla bla Lorem bla blaLorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate quia accusantium quisquam. Aliquam perspiciatis, aliquid corrupet nesciunt quo in quas recusandae!"
+        }
+    ]
+}

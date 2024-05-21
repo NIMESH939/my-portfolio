@@ -1,0 +1,201 @@
+/* Global CSS */
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing:"Roboto", sans-serif;
+    -moz-osx-font-smoothing:"Roboto", sans-serif;
+    font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+:root{
+    --primary: #163172;
+    --heading-color:#282938;
+    --bg-shade: #F6F6F6;
+    --github:#e62872;
+    --darkblue:#1c1e53;
+    --black:#000000;
+    --white:#ffffff;
+}
+
+/* Global CSS End */
+
+/* Main Headings */
+
+/* Heading 01 */
+h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+}
+
+/* Heading 02 */
+h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+/* Heading 03 */
+h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+/* Paragraps text Large Medium Small */
+
+.text-lg{
+    color: var(--darkblue);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.text-md{
+    color: var(--darkblue);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.text-sm{
+    color: var(--black);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+/* Section Titles */
+/* AboutMe and Technologies */
+
+.SectionTitle{
+    color: var(--heading-color);
+    font-size: 21px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.SubTitle{
+    color: var(--heading-color);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+/* Section Titles End */
+
+/* -- Nav Bar Styles -- */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 85.333px;
+    background: #D6E4F0;
+    box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.NavBarItems > ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 42.667px;
+    text-decoration: none;
+}
+.NavBarItems ul > li > a {
+    text-decoration: none;
+}
+
+.NavBarContent {
+    color: var(--primary);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.NavBarActiveContent {
+    color: var(--primary);
+}
+
+/* Hero Section Styles */
+
+.HeroSection {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 133.333px 85.333px 133.333px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    background-color: var(--bg-shade);
+}
+
+.HeroSectionContentBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.HeroSectionContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32.333px;
+}
+
+.GetInToutchButton{
+    margin-top: 21.333px;
+}
+
+.HeroSectionTitle{
+    color: var(--heading-color);
+    font-size: 74.667px;
+    font-weight: 700;
+    line-height: 90px;
+    align-self: stretch;
+}
+
+.HeroSectionTitleColor{
+    color: var(--primary);
+}
+
+.HeroSectionDescription{
+    color: var(--primary);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.HeroSectionImg{
+    display: flex;
+}
+
+.HeroSectionImg > img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Hero Section Styles End */

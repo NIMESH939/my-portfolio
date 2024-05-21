@@ -7,10 +7,7 @@ function HeroSection() {
       <section className="HeroSection" id="Hero--Section">
         <div className="HeroSectionContentBox">
           <div className="HeroSectionContent">
-            <p className="SectionTitle">
-              Hey, I'm Nimesh <br />
-              Karunaratne
-            </p>
+            <p className="SectionTitle">I'm Nimesh Karunaratne</p>
             <h1 className="HeroSectionTitle">
               <span className="HeroSectionTitleColor">Full Stack</span> <br />
               Developer
@@ -22,7 +19,12 @@ function HeroSection() {
               recusandae!
             </p>
           </div>
-          <GetInTouchButn />
+          <div className="GetInToutchButton">
+            <GetInTouchButn />
+          </div>
+        </div>
+        <div className="HeroSectionImg">
+          <img src="./img/hero_img.png" alt="NimeshImage" />
         </div>
       </section>
     </div>
