@@ -87,7 +87,7 @@ function NavBar() {
                 to="Technologies"
                 className="NavBarContent"
               >
-                Technologies
+                Skills
               </Link>
             </li>
             <li>
