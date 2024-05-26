@@ -20,7 +20,7 @@ function Projects() {
           {data?.projects?.map((item, index) => (
             <div key={index} className="ProjectsSectionCard">
               <div className="ProjectsSectionImg">
-                <img src={item.img} alt="Placeholder" />
+                <img src={item.src} alt="Placeholder" />
               </div>
               <div className="ProjectsSectionCardContent">
                 <div>
