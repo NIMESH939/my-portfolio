@@ -27,6 +27,62 @@ p {
     --white:#ffffff;
 }
 
+/* .btn {
+    font-family: "Roboto";
+    display: inline-block;
+    padding: 14px 32px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+  }
+  .btn-outline-primary {
+    color: var(--primary);
+    background-color: var(--white);
+    border: 1px solid var(--primary);
+  }
+  .btn-outline-primary:hover {
+    color: var(--white);
+    background-color: var(--primary);
+  }
+  .btn-primary {
+    color: var(--white);
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+  }
+  .btn-primary:hover {
+    color: var(--primary);
+    background-color: var(--white);
+  }
+  .btn-github {
+    color: var(--white);
+    background-color: var(--github);
+    border: var(--github);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.95);
+    gap: 16px;
+  }
+  .btn-github:hover {
+    color: var(--github);
+    background-color: var(--white);
+  } */
+
 /* Global CSS End */
 
 /* Main Headings */
@@ -393,4 +449,69 @@ h3{
 }
 
 
-/* -- Projects Styles End -- */
+/* -- My Projects Styles End -- */
+
+/* -- Contact Me Styles -- */
+
+.ContactSection {
+    display: flex;
+    padding: 150px 85px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 64px;
+}
+
+.ContactFormContainer {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5, auto);
+    width: 40%;
+    row-gap: 32px;
+}
+
+.Container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 32px;
+    row-gap: 32px;
+}
+
+.ContactLable {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10.6px;
+    flex: 1 0 0;
+    width: 100%;
+}
+
+.ContactInput {
+    display: flex;
+    font-family: "Roboto";
+    padding: 16px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1.333px solid var(--primary);
+    background: var(--white);
+}
+
+.CheckboxLable {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10.6px;
+    flex: 1 0 0;
+    justify-content: flex-start;
+}
+
+input[type="checkbox"] {
+    width: 21px;
+    height: 21px;
+    border: 0.15em solid var(--heading-color);
+    border-radius: 0.15em;
+    transform: translatey(-0.075em);
+}
+

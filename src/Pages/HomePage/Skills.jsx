@@ -6,7 +6,7 @@ function Skills() {
     <div className="SkillsPageContainer">
       <section className="SkillsSection" id="Skills">
         <div className="PortfolioContainer">
-          <p className="SectionTitle">Skills</p>
+          <p className="SubTitle">Skills</p>
           <h2 className="SkillsSectionHeading">My Skills</h2>
         </div>
         <div className="SkillsSectionContainer">

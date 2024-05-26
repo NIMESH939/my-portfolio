@@ -3,6 +3,7 @@ import HeroSection from "./HomePage/HeroSection";
 import Skills from "./HomePage/Skills";
 import AboutMe from "./HomePage/AboutMe";
 import Projects from "./HomePage/Projects";
+import ContactMe from "./HomePage/ContactMe";
 
 function Index() {
   return (
@@ -11,6 +12,7 @@ function Index() {
       <Skills/>
       <AboutMe/>
       <Projects/>
+      <ContactMe/>
     </div>
   );
 }

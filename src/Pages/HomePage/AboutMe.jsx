@@ -9,7 +9,7 @@ function AboutMe() {
         </div>
         <div className="HeroSectionContentBox AboutSectionBox">
           <div className="HeroSectionContent">
-            <p className="SectionTitle">About</p>
+            <p className="SubTitle">About</p>
             <h1 className="SkillsSectionHeading">About Me</h1>
             <p className="HeroSectionDescription">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus
