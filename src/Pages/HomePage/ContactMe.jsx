@@ -1,4 +1,5 @@
 import React from "react";
+import SubmitButn from "../../Components/Buttons/SubmitButn";
 
 function ContactMe() {
   return (
@@ -8,7 +9,10 @@ function ContactMe() {
           <p className="SubTitle">Get In Touch</p>
           <h2>Contact Me</h2>
           <p className="text-lg">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, ex.
+            <br />
+            I’m very approachable and would love to speak to you. Feel
+            <br /> free to call, send me an email . Follow me in social media or
+            <br /> simply complete the enquiry form.
           </p>
         </div>
         <form action="" className="ContactFormContainer">
@@ -85,10 +89,8 @@ function ContactMe() {
             />
             <span className="text-sm">I accept the terms</span>
           </label>
-          <div>
-            <button className="btn btn-primary contact--form--btn">
-              Submit
-            </button>
+          <div className="SubmitButton">
+            <SubmitButn />
           </div>
         </form>
       </section>

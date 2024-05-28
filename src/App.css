@@ -507,6 +507,14 @@ h3{
     justify-content: flex-start;
 }
 
+.SubmitButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
 input[type="checkbox"] {
     width: 21px;
     height: 21px;
