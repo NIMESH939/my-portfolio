@@ -11,7 +11,6 @@ function App() {
       <Router>
         <div>
           <NavBar />
-          {/* <MuiNavBar/> */}
           <Routes>
             <Route path="/" element={<Index />}></Route>
             <Route path="*" element={<div>404 Not Found</div>}></Route>

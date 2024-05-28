@@ -56,7 +56,7 @@ function NavBar() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="heroSection"
+                to="HeroSection"
                 className="NavBarContent"
               >
                 Home
@@ -84,7 +84,7 @@ function NavBar() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Technologies"
+                to="Skills"
                 className="NavBarContent"
               >
                 Skills
@@ -105,19 +105,19 @@ function NavBar() {
               </Link>
             </li>
             <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="NavBarActiveContent"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="Contact"
-              className="NavBarContent"
-            >
-              Contact
-            </Link>
-          </li>
+              <Link
+                onClick={closeMenu}
+                activeClass="NavBarActiveContent"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="Contact"
+                className="NavBarContent"
+              >
+                Contact
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

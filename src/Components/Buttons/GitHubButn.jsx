@@ -4,6 +4,9 @@ import Stack from "@mui/material/Stack";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
 function GitHubButn() {
+  const handleButtonClick = () => {
+    window.open("https://github.com/NIMESH939", "_blank");
+  };
   return (
     <div className="GitHubButtonContainer">
       <Stack direction="row" spacing={2}>
@@ -24,6 +27,7 @@ function GitHubButn() {
             },
             textTransform: "none",
           }}
+          onClick={handleButtonClick}
         >
           Visit My GitHub
         </Button>
