@@ -582,3 +582,190 @@ input[type="checkbox"] {
   }
   
   /* -- Footer Styles End -- */
+
+  /* -- Responsive Screens -- */
+
+@media only screen and (max-width: 1800px) {
+    .HeroSectionTitle {
+      font-size: 68px;
+      line-height: 70px;
+    }
+    .SkillsSectionTitle {
+      font-size: 28px;
+      line-height: 40px;
+    }
+  }
+  
+  @media only screen and (max-width: 1600px) {
+    .SkillsSectionHeading {
+      font-size: 54px;
+      line-height: 70px;
+    }
+    .SkillsSectionContainer {
+      gap: 16px;
+    }
+    .SkillsSectionCard {
+      gap: 28px;
+    }
+    .SkillsSectionCardContent {
+      gap: 20px;
+    }
+    .SkillsSectionTitle {
+      font-size: 23px;
+      line-height: 30px;
+    }
+    .SkillsSectionDescription {
+      font-size: 17.333px;
+      line-height: 27px;
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .btn-outline-primary {
+      display: none;
+    }
+    .HeroSection {
+      display: flex;
+      flex-direction: column-reverse;
+      padding-bottom: 70px;
+    }
+    .HeroSectionTitle,
+    .HeroSectionDescription,
+    .footer--content {
+      text-align: center;
+    }
+    .SkillsSectionContainer,
+    .AboutSection,
+    .ProjectsSectionContainer,
+    .ProjectsContainerBox,
+    .footer--link--container,
+    .footer--items > ul,
+    .footer--content--container {
+      display: flex;
+      flex-direction: column;
+    }
+    .SkillsSection,
+    .ProjectsContainer,
+    .HeroSectionContent,
+    .HeroSectionContentBox {
+      align-items: center;
+    }
+    .ProjectsContainerBox {
+      gap: 30px;
+    }
+    .SkillsSection,
+    .ContactSection,
+    .footer--container {
+      gap: 20px;
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+    .AboutSection {
+      gap: 20px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    /* .testimonial--section--card {
+      padding: 25px;
+    } */
+    .HeroSectionTitle,
+    .SkillsSectionHeading,
+    .SectionsHeading {
+      font-size: 35px;
+      line-height: 40px;
+    }
+    .HeroSectionContentBox {
+      gap: 10px;
+    }
+    .ContactFormContainer {
+      width: 100%;
+    }
+    .Container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .footer--social--icon > ul,
+    .footer--items > ul {
+      padding: 0;
+      align-items: center;
+    }
+    .divider {
+      margin: 20px;
+    }
+  }
+  
+  /* Hamburger menu  */
+  
+  .nav__hamburger {
+    display: none;
+    width: 1.875rem;
+    height: 1.313rem;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+  
+  .nav__hamburger__line {
+    display: block;
+    height: 0.188rem;
+    width: 100%;
+    background-color: #000000;
+    border-radius: 0.625rem;
+    transition: all ease-in-out 0.2s;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .nav__hamburger {
+      display: flex;
+      z-index: 200;
+    }
+    .NavBarItems {
+      display: flex;
+    }
+    .NavBarItems {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(255, 255, 255);
+      top: -20rem;
+      left: 0;
+      width: 100%;
+      transition: all ease-in-out 0.4s;
+    }
+    .NavBarItems ul {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding: 3rem 0 0.6rem;
+      z-index: -100;
+    }
+    .NavBarItems ul li {
+      text-align: center;
+    }
+    .NavBarItems ul li a {
+      padding: 0.5rem;
+    }
+    .NavBarItems {
+      z-index: -1000;
+    }
+    .NavBarItems.active {
+      top: 30px;
+    }
+    .nav__hamburger.active :nth-child(1) {
+      transform: rotate(45deg) translate(0.45rem, 0.1875rem);
+    }
+  
+    .nav__hamburger.active :nth-child(2) {
+      opacity: 0;
+    }
+  
+    .nav__hamburger.active :nth-child(3) {
+      transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
+    }
+  }
+  
+  /* Responsive Screens Ends*/

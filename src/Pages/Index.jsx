@@ -10,9 +10,9 @@ function Index() {
   return (
     <div>
       <HeroSection />
+      <Projects />
       <Skills />
       <AboutMe />
-      <Projects />
       <ContactMe />
       <Footer />
     </div>
