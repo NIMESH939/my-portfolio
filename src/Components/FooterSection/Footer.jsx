@@ -82,7 +82,7 @@ function Footer() {
             <ul>
               <li>
                 <a
-                  href="https://www.facebook.com/"
+                  href="https://www.facebook.com/nimesh.kavinda.35977?mibextid=LQQJ4d"
                   className="navbar--content"
                   target="_blank"
                   rel="noreferrer"
@@ -103,7 +103,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/"
+                  href="https://www.instagram.com/nims_kv?igsh=MWJiMDZ0ejFsNmUyOQ%3D%3D&utm_source=qr"
                   className="navbar--content"
                   target="_blank"
                   rel="noreferrer"
@@ -126,7 +126,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.twitter.com/"
+                  href="https://x.com/Nim__kavinda"
                   className="navbar--content"
                   target="_blank"
                   rel="noreferrer"
@@ -147,7 +147,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/"
+                  href="https://www.linkedin.com/in/nimesh-karunaratne/"
                   className="navbar--content"
                   target="_blank"
                   rel="noreferrer"
