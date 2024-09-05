@@ -6,8 +6,19 @@ function Footer() {
     <div className="FooterPageContainer">
       <footer className="footer--container">
         <div className="footer--link--container">
-          <div>
+          {/* <div>
             <img src="./img/logo.svg" alt="Logoipsum" />
+          </div> */}
+          <div>
+            <Link
+              to="HeroSection"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <img className="Logo-img" src="./img/logo.svg" alt="NimeshLogo" />
+            </Link>
           </div>
           <div className="footer--items">
             <ul>
@@ -173,7 +184,8 @@ function Footer() {
         </div>
         <hr className="divider" />
         <div className="footer--content--container">
-          <p className="footer--content">Made with 💖 by John</p>
+          <p className="text-sm">Made with Nimesh</p>
+          <p className="text-sm">© 2024 Nimesh Karunaratne</p>
           <div className="footer--social--icon">
             <ul>
               <li>

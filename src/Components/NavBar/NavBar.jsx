@@ -35,7 +35,16 @@ function NavBar() {
     <div className="NavBarContainer">
       <nav className={`navbar ${navActive ? "active" : ""}`}>
         <div>
-          <img src="./img/logo.svg" alt="NimeshLogo" />
+          <Link
+            to="HeroSection"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            onClick={closeMenu}
+          >
+            <img className="Logo-img" src="./img/logo.svg" alt="NimeshLogo" />
+          </Link>
         </div>
 
         <a

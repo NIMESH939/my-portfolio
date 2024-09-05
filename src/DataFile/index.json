@@ -4,25 +4,50 @@
             "id": "1",
             "src": "./img/product-chain-1.png",
             "title": "Front End",
-            "description": "Lorem bla bla Lorem bla blaLorem ipsum, dolor sit amet consectetur adipisicing elit. "
+            "item1": "React Js",
+            "item2": "Matireal-UI",
+            "item3":"Tailwind CSS",
+            "item4":"HTML",
+            "img1":"./img/react.png",
+            "img2":"./img/MUI.png",
+            "img3":"./img/tailwind.png",
+            "img4":"./img/html.png"
+
         },
         {
             "id": "2",
             "src": "./img/tag-1.png",
             "title": "Back End",
-            "description": "Lorem bla bla Lorem bla blaLorem ipsum, dolor sit amet consectetur adipisicing elit. "
+            "item1": "Node Js",
+            "item2": "Express Js",
+            "item3": ". ",
+            "item4":" .",
+            "img1":"./img/nodeLogo.png",
+            "img2":"./img/express.png"
         },
         {
             "id": "3",
             "src": "./img/feather-pen-2.png",
             "title": "Tools",
-            "description": "Lorem bla bla Lorem bla blaLorem ipsum, dolor sit amet consectetur adipisicing elit. "
+            "item1": "Git",
+            "item2": "Git Hub",
+            "item3": "Figma",
+            "item4":" .",
+            "img1":"./img/git.png",
+            "img2":"./img/github.png",
+            "img3":"./img/figma.png"
         },
         {
             "id": "4",
             "src": "./img/feather-pen-1.png",
             "title": "Other",
-            "description": "Lorem bla bla Lorem bla blaLorem ipsum, dolor sit amet consectetur adipisicing elit. "
+            "item1": "MYSQL",
+            "item2": "MSSQL",
+            "item3": "MongoDB",
+            "item4":". ",
+            "img1":"./img/MYSQL.jpg",
+            "img2":"./img/MsSQL.jpg",
+            "img3":"./img/mongodb.png"
         }
     ],
     "projects": [
@@ -30,7 +55,7 @@
             "id": "1",
             "src": "./img/placeholder-image.png",
             "title": "Ahuse",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+            "description": "Lorem i onsectetur adipiscing elit. Suspenmdisse varius eim in e onsectetur adipiscing elit. Susptristique",
             "link": "View In Github"
           },
           {
