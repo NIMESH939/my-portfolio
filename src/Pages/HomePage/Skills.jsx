@@ -17,7 +17,22 @@ function Skills() {
               </div>
               <div className="SkillsSectionCardContent">
                 <h3 className="SkillsSectionTitle">{item.title}</h3>
-                <p className="SkillsSectionDescription">{item.description}</p>
+                <div className="item-content">
+                  <p className="SkillsSectionDescription">{item.item1}</p>
+                  <img className="item-img" src={item.img1} alt="" />
+                </div>
+                <div className="item-content">
+                  <p className="SkillsSectionDescription">{item.item2}</p>
+                  <img className="item-img" src={item.img2} alt="" />
+                </div>
+                <div className="item-content">
+                  <p className="SkillsSectionDescription">{item.item3}</p>
+                  <img className="item-img" src={item.img3} alt="" />
+                </div>
+                <div className="item-content">
+                  <p className="SkillsSectionDescription">{item.item4}</p>
+                  <img className="item-img" src={item.img4} alt="" />
+                </div>
               </div>
             </div>
           ))}
