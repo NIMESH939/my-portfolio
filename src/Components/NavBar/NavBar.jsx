@@ -43,7 +43,11 @@ function NavBar() {
             duration={500}
             onClick={closeMenu}
           >
-            <img className="Logo-img" src="./img/logo.svg" alt="NimeshLogo" />
+            <img
+              className="Logo-img"
+              src="./img/nimesh-Logo.png"
+              alt="NimeshLogo"
+            />
           </Link>
         </div>
 
@@ -57,7 +61,7 @@ function NavBar() {
         </a>
         <div className={`NavBarItems ${navActive ? "active" : ""}`}>
           <ul>
-            <li>
+            <li className="Navbar-item">
               <Link
                 onClick={closeMenu}
                 activeClass="NavBarActiveContent"
@@ -71,7 +75,7 @@ function NavBar() {
                 Home
               </Link>
             </li>
-            <li>
+            <li className="Navbar-item">
               <Link
                 onClick={closeMenu}
                 activeClass="NavBarActiveContent"
@@ -85,7 +89,7 @@ function NavBar() {
                 Projects
               </Link>
             </li>
-            <li>
+            <li className="Navbar-item">
               <Link
                 onClick={closeMenu}
                 activeClass="NavBarActiveContent"
@@ -99,7 +103,7 @@ function NavBar() {
                 Skills
               </Link>
             </li>
-            <li>
+            <li className="Navbar-item">
               <Link
                 onClick={closeMenu}
                 activeClass="NavBarActiveContent"
@@ -113,7 +117,7 @@ function NavBar() {
                 About Me
               </Link>
             </li>
-            <li>
+            <li className="Navbar-item">
               <Link
                 onClick={closeMenu}
                 activeClass="NavBarActiveContent"
