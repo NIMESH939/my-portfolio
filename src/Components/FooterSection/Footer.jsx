@@ -19,7 +19,7 @@ function Footer() {
             >
               <img
                 className="Logo-img"
-                src="./img/nimesh-Logo.png"
+                src="./img/nimesh-06.png"
                 alt="NimeshLogo"
               />
             </Link>

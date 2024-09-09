@@ -6,8 +6,8 @@ function Skills() {
     <div className="SkillsPageContainer">
       <section className="SkillsSection" id="Skills">
         <div className="PortfolioContainer">
-          <p className="SubTitle">Skills</p>
           <h2 className="SkillsSectionHeading">My Skills</h2>
+          <p className="SubTitle">Skills</p>
         </div>
         <div className="SkillsSectionContainer">
           {data?.skills?.map((item, index) => (

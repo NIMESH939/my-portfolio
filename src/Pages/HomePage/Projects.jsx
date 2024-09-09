@@ -8,8 +8,8 @@ function Projects() {
       <section className="ProjectsSection" id="MyProjects">
         <div className="ProjectsContainerBox">
           <div className="ProjectsContainer">
-            <p className="SubTitle">Recent Projects</p>
             <h2 className="SectionHeading">Projects</h2>
+            <p className="SubTitle">Recent Projects</p>
           </div>
           <div>
             {" "}
@@ -23,9 +23,12 @@ function Projects() {
                 <img src={item.src} alt="Placeholder" />
               </div>
               <div className="ProjectsSectionCardContent">
-                <div>
+                <div className="ProjectContent">
                   <h3 className="ProjectsSectionTitle">{item.title}</h3>
-                  <p className="text-md">{item.description}</p>
+                  <p className="text-md">{item.description1}</p>
+                  <p className="text-md">
+                    <b>{item.description2}</b>
+                  </p>
                 </div>
                 <p className="text-sm ProjectsLink">
                   {item.link}

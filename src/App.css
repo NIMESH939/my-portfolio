@@ -173,7 +173,7 @@ h3{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 85.333px;
+    padding: 10px 85.333px;
     background: #D6E4F0;
     box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -311,7 +311,7 @@ h3{
 
 .SkillsSection {
     display: flex;
-    padding: 149.33px 85.33px;
+    padding: 50.33px 85.33px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -343,9 +343,6 @@ h3{
     min-width: 12vw;
     max-height: 4vh;
 }
-.item-content img{
-  width: 3vw;
-}
 
 .SkillsSectionCard {
     display: flex;
@@ -366,6 +363,20 @@ h3{
 
 .SkillsSectionCard:hover .SkillsSectionDescription {
     color: var(--darkblue);
+}
+
+.item-content{
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.item-content img{
+  width: 3vw;
+}
+
+.item-content:hover{
+    transform: scale(1.03);
+    box-shadow: 1px 1px #0000002a;
 }
 
 .SkillsSectionImg {
@@ -425,10 +436,10 @@ h3{
 
 .ProjectsSection {
     display: flex;
-    padding: 112px 85px;
+    padding: 50px 85px;
     flex-direction: column;
     align-items: flex-start;
-    gap:80px
+    gap:50px;
 }
 
 .ProjectsContainerBox {
@@ -463,17 +474,27 @@ h3{
     width: 100%;
 }
 
+.ProjectContent p{
+ text-align: justify;
+}
+
 .ProjectsSectionCard {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
+    gap: 0px;
     flex: 1 0 0;
     background: #ffffff;
     box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
     cursor: pointer;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    transition: 0.3s;
+}
+
+.ProjectsSectionCard:hover{
+  transform: scale(1.03);
+
 }
 
 .ProjectsSectionCardContent {
