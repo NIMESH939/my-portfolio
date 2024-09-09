@@ -54,22 +54,25 @@
         {
             "id": "1",
             "src": "./img/placeholder-image.png",
-            "title": "Ahuse",
-            "description": "Lorem i onsectetur adipiscing elit. Suspenmdisse varius eim in e onsectetur adipiscing elit. Susptristique",
+            "title": "ApartFlow",
+            "description1": "A Residence Management System simplifying residential management tasks like finance, resident management, maintenance scheduling, and reservations. It enhances communication between residents and staff, streamlining operations under the mentorship of Creative Software.",
+            "description2":"A cross-platform mobile application and a web application built using   React Js, Material-UI, Flutter, Express Js, and MYSQL.",
             "link": "View In Github"
           },
           {
             "id": "2",
             "src": "./img/placeholder-image-1.png",
-            "title": "App Dashboard",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+            "title": "Food Delivery Web App",
+            "description1": "Developed a responsive MERN stack-based food delivery platform with essential features for users and administrators. It includes a dynamic Home page, Cart, Order page, and Sign In/Sign Up popup. The admin panel enables efficient management of orders and menu items, ensuring a seamless user experience and streamlined operations for administrators.",
+            "description2":"A web application built using MongoDB, Express, React Js, and Node Js.",
             "link": "View In Github"
           },
           {
             "id": "3",
             "src": "./img/placeholder-image-2.png",
-            "title": "Easy Rentn",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+            "title": "Vita Care Health Monitor",
+            "description1": "I contributed to a university project developing a smart health device that monitors vital signs like blood pressure, heart rate, body temperature, and SpO2. My role involved sensor integration, system architecture, and designing a real-time interface for displaying health metrics. This project enhanced my IoT skills and fostered innovation in healthcare technology.",
+            "description2":"Used Arduino, EasyEDA (for PCB design), Blender, React Js and Firebase.",
             "link": "View In Github"
           }
     ]
