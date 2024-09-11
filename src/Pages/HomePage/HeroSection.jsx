@@ -23,7 +23,7 @@ function HeroSection() {
           </div>
         </div>
         <div className="HeroSectionImg">
-          <img src="./img/hero_img.png" alt="NimeshImage" />
+          <img src="./img/nimesh-hero.png" alt="NimeshImage" />
         </div>
       </section>
     </div>
