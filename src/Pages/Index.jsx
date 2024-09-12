@@ -5,6 +5,7 @@ import AboutMe from "./HomePage/AboutMe";
 import Projects from "./HomePage/Projects";
 import ContactMe from "./HomePage/ContactMe";
 import Footer from "../Components/FooterSection/Footer";
+import GithubStatus from "../Components/GitHub/GithubStatus";
 
 function Index() {
   return (
@@ -14,6 +15,7 @@ function Index() {
       <Skills />
       <AboutMe />
       <ContactMe />
+      <GithubStatus />
       <Footer />
     </div>
   );
