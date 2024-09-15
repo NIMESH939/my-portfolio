@@ -9,7 +9,6 @@ function AboutMe() {
         </div>
         <div className="HeroSectionContentBox AboutSectionBox">
           <div className="HeroSectionContent">
-            <p className="SubTitle">About</p>
             <h1 className="SkillsSectionHeading">About Me</h1>
             <p className="HeroSectionDescription">
               I’m Nimesh Karunaratne, an IT student at the University of
@@ -18,7 +17,19 @@ function AboutMe() {
               university has deepened my interest in technology and how it can
               be used to solve real-world problems. I’m eager to learn and grow,
               constantly working on improving my skills to prepare for the
-              challenges of the tech industry.
+              challenges of the future IT industry.
+            </p>
+            <p className="HeroSectionDescription">
+              I gained valuable industry experience during my tenure at People's
+              Bank, where I worked as a Banking Assistant (Intern) from June
+              2021 to July 2022. In this role, I developed strong organizational
+              and customer service skills, managing daily banking operations and
+              assisting clients effectively. Before this, I served as a Social
+              Media Coordinator at BellDi Fashion (PVT) Ltd from December 2020
+              to June 2021, where I contributed to the company’s online presence
+              by managing social media campaigns. These roles helped me build a
+              solid foundation in professional environments, enhancing my
+              communication, teamwork, and project management abilities.
             </p>
             <p className="HeroSectionDescription">
               Before university, I studied at St. Aloysius National College,

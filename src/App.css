@@ -480,7 +480,7 @@ h3{
 
 .AboutSection {
     display: grid;
-    padding: 10.3px 85.3px;
+    padding: 76.3px 85.3px;
     align-items: center;
     gap: 114.6px;
     grid-template-columns: repeat(2,1fr);
@@ -489,10 +489,19 @@ h3{
 .AboutSectionImg img {
     width: 70%;
     height: 70%;
-    margin-left: 100px;
-    margin-top: 150px;
+    margin-left: 70px;
+    margin-top: 90px;
     border-radius: 25px;
     box-shadow: 8px 10px 10px #16327258;
+}
+.AboutSectionBox {
+  margin-left: -105px;
+  margin-right: 50px;
+}
+
+.AboutSectionBox p{
+  font-size: 18px;
+  line-height: 1.8;
 }
 
 /* -- About Me Styles End -- */
@@ -870,6 +879,27 @@ input[type="checkbox"] {
     .HeroSectionContentBox {
       gap: 10px;
     }
+
+    .AboutSectionImg{
+     margin:0;
+     padding: 0;
+
+    }
+
+    .AboutSectionImg img{
+     justify-content: center;
+     align-items: center;
+    }
+    
+    .AboutSectionBox {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .AboutSectionBox p {
+      text-align: justify;
+    }
+
     .ContactFormContainer {
       width: 100%;
     }
@@ -979,6 +1009,11 @@ input[type="checkbox"] {
   
     .skill-box {
         padding: 1rem;
+    }
+
+    .AboutSectionImg {
+      align-items: center;
+      margin-left: -50px;
     }
   }
   
