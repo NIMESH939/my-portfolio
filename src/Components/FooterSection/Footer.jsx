@@ -214,6 +214,67 @@ function Footer() {
             </ul>
           </div>
         </div>
+
+        <div className="footer-contact-details">
+          <div className="footer-contact-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              className="Email-icon"
+            >
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+                fill="#163172"
+              />
+            </svg>
+
+            <p>nimeshkavindaofficial@gmail.com</p>
+          </div>
+
+          <div className="footer-contact-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              className="Phone-icon"
+            >
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M6.62 10.79a15.912 15.912 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.25 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C9.4 21 3 14.6 3 6.62 3 6.07 3.45 5.62 4 5.62h3.5c.55 0 1 .45 1 1 0 1.24.2 2.45.57 3.57.11.35.02.75-.25 1.02l-2.2 2.2z"
+                fill="#163172"
+              />
+            </svg>
+
+            <p>+94 76 792 7004</p>
+          </div>
+          <div className="footer-contact-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              className="Location-icon"
+            >
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M12 0C7.03 0 3 4.03 3 9c0 7.14 9 15 9 15s9-7.86 9-15c0-4.97-4.03-9-9-9zm0 12c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z"
+                fill="#163172"
+              />
+            </svg>
+
+            <p>Katubedda, Moratuwa.</p>
+          </div>
+        </div>
         <hr className="divider" />
         <div className="footer--content--container">
           <p className="text-sm">Made with Nimesh</p>

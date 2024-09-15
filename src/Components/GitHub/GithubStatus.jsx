@@ -25,7 +25,7 @@ const GithubStatus = () => {
         rel="noopener noreferrer"
       >
         <img
-          src={`https://streak-stats.demolab.com/?user=NIMESH939&theme=dark&t=${timestamp}`}
+          src={`https://streak-stats.demolab.com/?user=NIMESH939&theme=dark&background=D6E4F0&stroke=163172&ring=orange&fire=orange&currStreakNum=163172&sideNums=163172&currStreakLabel=163172&sideLabels=163172&dates=163172&t=${timestamp}`}
           alt="GitHub Streak Stats"
           className="streak-stats-img"
         />

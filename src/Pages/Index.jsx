@@ -13,9 +13,9 @@ function Index() {
       <HeroSection />
       <Projects />
       <Skills />
+      <GithubStatus />
       <AboutMe />
       <ContactMe />
-      <GithubStatus />
       <Footer />
     </div>
   );
