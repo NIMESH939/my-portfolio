@@ -989,6 +989,13 @@ input[type="checkbox"] {
     .nav__hamburger.active :nth-child(3) {
       transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
     }
+    .AboutSectionBox p{
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+    .AboutSectionImg {
+      align-items: center;
+    }
   }
 
   @media (max-width: 768px) {
@@ -999,6 +1006,11 @@ input[type="checkbox"] {
   
     .skill-box img {
         max-width: 10vw; /* Adjust icon size for smaller screens */
+    }
+    .AboutSectionBox p{
+      margin-left: -60px;
+      margin-right: -60px;
+
     }
   }
   
@@ -1014,6 +1026,11 @@ input[type="checkbox"] {
     .AboutSectionImg {
       align-items: center;
       margin-left: -50px;
+    }
+    .AboutSectionBox p{
+      margin-left: -65px;
+      margin-right: -65px;
+
     }
   }
   
