@@ -24,7 +24,7 @@ function GetInTouchButn() {
               textTransform: "none",
             }}
           >
-            Get In Toutch
+            Get In Touch
           </Button>
         </Link>
       </Stack>
